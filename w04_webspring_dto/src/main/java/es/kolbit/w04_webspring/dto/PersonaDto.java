@@ -8,6 +8,10 @@ public class PersonaDto {
 	private String nombre;
 	private String apellidos;
 	
+	public PersonaDto() {
+		
+	}
+	
 	public PersonaDto(Integer id, String nombre, String apellidos) {
 		super();
 		this.id = id;
